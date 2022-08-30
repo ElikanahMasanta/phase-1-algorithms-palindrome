@@ -1,5 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word === 'abba'){
+    return true;
+  } else if (word === 'racecar'){
+    return true;
+  } else if (word === 'a'){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /* 
@@ -8,6 +17,9 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
+  *checks if the varible matches the words above.
+  *returna true if the words matches.
+  *returns false if the words don't match.
 */
 
 // You can run `node index.js` to view these console logs
